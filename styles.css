@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(0, 0, 255, 0.1);
+}
+
+h1 {
+  text-align: center;
+  font-size: 5rem;
+}
+
+.temps_container {
+  margin: 10% auto;
+  width: 50%;
+}
+
+#fahrenheit_container {
+  float: left;
+}
+
+input[type="text"] {
+  padding: 12px 0px;
+  font-size: 20px;
+}
+
+input[type="text"]:focus {
+  background-color: lightcyan;
+}
+
+label {
+  font-size: 2rem;
+}
+
+/*
+M E D I A  Q U E R I E S
+*/
+
+/* 
+Mobile
+*/
+@media only screen and (max-width: 600px) {
+  h1 {
+    text-align: center;
+    font-size: 2.6rem;
+  }
+
+  .temps_container {
+    margin: 10% auto;
+    width: 90%;
+  }
+
+  #fahrenheit_container {
+    float: none;
+    padding: 40px 0;
+  }
+
+  input[type="text"] {
+    padding: 12px 0px;
+    font-size: 26px;
+  }
+
+  input[type="text"]:focus {
+    background-color: lightcyan;
+  }
+
+  label {
+    font-size: 1.8rem;
+  }
+}
+
+/* 
+Tablet
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  h1 {
+    text-align: center;
+    font-size: 5rem;
+  }
+
+  .temps_container {
+    margin: 10% auto;
+    width: 70%;
+  }
+
+  #fahrenheit_container {
+    float: none;
+    padding: 40px 0;
+  }
+
+  input[type="text"] {
+    padding: 12px 0px;
+    font-size: 40px;
+  }
+
+  input[type="text"]:focus {
+    background-color: lightcyan;
+  }
+
+  label {
+    font-size: 2.5rem;
+  }
+}
